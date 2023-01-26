@@ -13,7 +13,7 @@ Presenter should not contain any logic.
 
 **RouterPresenter** parses URL that is received so every subpath is an list item. Based on
 the first subpath it calls corresponding Presenter to deal with it. If you want to have
-URL ```/github-example```, your Presenter should be called ```GithubExamplePresenter.php```
+URL ```/github-example```, your Presenter should be named ```GithubExamplePresenter.php```
 so it can be automatically be called. As you can tell, it transforms URL in dashes notation
 to camel notation.  
 
